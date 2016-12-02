@@ -20,6 +20,7 @@ setup(
     version=VERSION,
     description="backend for dogpile.cache with reading and writing the native value",
     long_description=open(readme).read(),
+    install_requires=['dogpile.cache>=0.6.2', 'redis>=2.10.5'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
