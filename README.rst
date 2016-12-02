@@ -37,7 +37,7 @@ Result::
    b'value'
    [b'value1', b'100']
 
-See with redis-cli::
+See the value with using redis-cli::
 
    $ redis-cli
    127.0.0.1:6379> get test
